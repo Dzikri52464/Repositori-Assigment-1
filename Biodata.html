@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+          <head>
+            <!--Import Google Icon Font-->
+            <link rel="stylesheet" href="CSS/style.css">
+            <!--Import Google Icon Font-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            <!--Let browser know website is optimized for mobile-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          </head>
+            <title>Biodata</title>
+              <body>
+                <div class="navbar-fixed">
+                  <nav class="nav-wrapper white" >
+                    <div class="container">
+                    <a href="#/" class="brand-logo black-text">BIOGRAPHY</a>
+
+                      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons grey-text">menu</i>
+                      </a>
+                      <ul class="right hide-on-med-and-down">
+                        <li><a href="Index.html"  class="grey-text">HOME</a></li>
+                        <li><a href=""  class="grey-text">PRODUCT</a></li>
+                        <li><a href=""  class="grey-text">GALLERY</a></li>
+                        <li><a href=""  class="grey-text">BLOG</a></li>
+                        <li><a href=""  class="grey-text">MY BIOGRAPHY</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <ul class="sidenav" id="mobile-links">
+                        <li><a href="Index.html"  class="grey-text">HOME</a></li>
+                        <li><a href=""  class="grey-text">PRODUCT</a></li>
+                        <li><a href=""  class="grey-text">GALLERY</a></li>
+                        <li><a href=""  class="grey-text">BLOG</a></li>
+                        <li><a href=""  class="grey-text">MY BIOGRAPHY</a></li>
+                </ul>
+                <div id="bgcolor"></div>
+                  <div class="row container white">
+                    <div class="col s2">
+                      <img class="circle" src="Images/icon dev.jpg" alt="" height="150" width="150">
+                    </div>
+                      <div class="col s4 hide-on-med-and-down">
+                        <p>Dzikri amrillah</p>
+                        <p>FOrnt End Developer</p>
+                        <button type="button" class="btn-primary">Kontak</button>
+                        <button type="button" class="btn-light ">Resume</button>
+                      </div>
+                      <div class="col s1 hide-on-med-and-down">
+                        <p>Availibility</p>
+                        <p>Usia</p>
+                        <p>Lokasi</p>
+                        <p>Pengalaman</p>
+                        <p>Email</p>
+                      </div>
+                      <div class="col s5 hide-on-med-and-down">
+                        <p>Full time</p>
+                        <p>19</p>
+                        <p>Tegal, Jawa tengah</p>
+                        <p>2</p>
+                        <p>dzikriamrillah86@gmail.com</p>
+                    </div>
+                  </div>
+                  
+                  <div class="container absolute ">
+                    <label for="Nama">Nama</label>
+                    <input class="white" type="text" name="Nama"><br>
+                    <label for="Nama">Role</label>
+                    <input type="text" name="Nama"><br>
+                    <label for="Availebelity">Availebelity</label>
+                    <input type="text" name="Availebelity"><br>
+                    <label for="Usia">Age</label>
+                    <input type="text" name="Usia"><br>
+                    <label for="Lokasi">Lokasi</label>
+                    <input type="text" name="Lokasi"><br>
+                    <label for="Eksperience">Years Eksperience</label>
+                    <input type="text" name="Eksperience"><br>
+                    <label for="Email">Email</label>
+                    <input type="text" name="Email"><br>
+                  </div>  
+
+                    <!--<button id="btn-full" class="btn " type="submit" name="action">Submit
+                      <i class="material-icons right">send</i>
+                    </button>-->
+                  <div class="container">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+
+
+                <!--JavaScript at end of body for optimized loading-->
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <!-- Compiled and minified JavaScript -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                <script>
+                  $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                  });
+                </script>
+              </body>
+</html>
